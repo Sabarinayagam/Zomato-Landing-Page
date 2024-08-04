@@ -1,6 +1,6 @@
 .nav {
     height: 470px;
-    width: 100%;
+    width: 110%;
     background-image: url(zomato/81f3ff974d82520780078ba1cfbd453a1583259680.avif);
   }
   a {
@@ -52,9 +52,11 @@
   }
   ::placeholder {
     font-size: 15px;
+    padding: 30px;
   }
   .totalbox {
     display: flex;
+    padding: 30px;
   }
   .box {
     height: 300px;
@@ -83,6 +85,7 @@
   }
   .fourimagetotal {
     display: flex;
+    padding: 30px;
   }
   .box2 {
     height: 30%;
@@ -134,6 +137,7 @@
     margin-top: 3%;
   }
   .nearme {
+    padding: 30px;
     margin-left: 5%;
     margin-top: 3%;
   }
@@ -152,7 +156,7 @@
     height: 300px;
     background-color: black;
     color: white;
-    width: 100%;
+    width: 110%;
     display: flex;
     margin-top: 3%;
   }
@@ -294,13 +298,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 80px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
     height: 80%;
     width: 80%;
     padding-top: 10%;
-    padding-left: 30%;
+    padding-left: 30%; */
   }
   .form {
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
     width: 100%;
   }
   .phph {
@@ -308,7 +319,7 @@
     width: 100%;
   }
   .phimg {
-    width: 30%;
+    width: 60%;
     height: 100%;
   }
   .phcon {
@@ -352,6 +363,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+  }
+  @media (max-width: 768px) {
+    .phimg {
+      width: 60%;
+      height: 100%;
     }
   }
   
